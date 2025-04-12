@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KutezClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c6f765df7f779db782095cf779333943dfa903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+329e55a4b569f345926b213d280997d48319c89c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KutezClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KutezClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

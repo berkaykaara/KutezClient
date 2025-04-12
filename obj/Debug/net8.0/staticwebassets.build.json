@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p9ujhLTEEdPmhHU3TH9/Dk9FeMz36CYtViXfjc8wtyM=",
+  "Hash": "zcuRjR8G5W2jBTINiZQTAWk+CNuVtfwTRGXkEBEadLA=",
   "Source": "KutezClient",
   "BasePath": "_content/KutezClient",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2jeav33t79",
-      "Integrity": "DkPXzObGIR8eCTj+xYHRHtS1wenwYkrviam5ooWYZZU=",
+      "Fingerprint": "wxpo1ufq39",
+      "Integrity": "VOLVxcJ8M6E5THdiWw3goGH9P/t3u5eHhRKfJ2HW1zE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1972,51 +1972,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.2jeav33t79.css",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6957"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DkPXzObGIR8eCTj+xYHRHtS1wenwYkrviam5ooWYZZU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 14:51:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2jeav33t79"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DkPXzObGIR8eCTj+xYHRHtS1wenwYkrviam5ooWYZZU="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2027,7 +1982,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6957"
+          "Value": "7175"
         },
         {
           "Name": "Content-Type",
@@ -2035,11 +1990,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DkPXzObGIR8eCTj+xYHRHtS1wenwYkrviam5ooWYZZU=\""
+          "Value": "\"VOLVxcJ8M6E5THdiWw3goGH9P/t3u5eHhRKfJ2HW1zE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 14:51:04 GMT"
+          "Value": "Sat, 12 Apr 2025 22:27:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2049,7 +2004,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DkPXzObGIR8eCTj+xYHRHtS1wenwYkrviam5ooWYZZU="
+          "Value": "sha256-VOLVxcJ8M6E5THdiWw3goGH9P/t3u5eHhRKfJ2HW1zE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wxpo1ufq39.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOLVxcJ8M6E5THdiWw3goGH9P/t3u5eHhRKfJ2HW1zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 22:27:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxpo1ufq39"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOLVxcJ8M6E5THdiWw3goGH9P/t3u5eHhRKfJ2HW1zE="
         }
       ]
     },

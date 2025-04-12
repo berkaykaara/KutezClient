@@ -21,6 +21,7 @@
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
     padding: 10px 0;
+    margin: 30px;
     flex-grow: 1;
 }
 
@@ -46,7 +47,7 @@
     font-size: 30px;
     padding: 30px 12px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     z-index: 10;
     cursor: pointer;
@@ -60,12 +61,12 @@
 
     /* Sol ok pozisyonu */
     .carousel-arrow.left {
-        left: 5px;
+        left: 1px;
     }
 
     /* Sað ok pozisyonu */
     .carousel-arrow.right {
-        right: 5px;
+        right: 1px;
     }
 
 /* Ürün kartý stili */
@@ -94,6 +95,12 @@
         min-height: 460px;
     }
 }
+@media (max-width: 480px) {
+    .product-card {
+        min-width: 0;
+    }
+}
+
 
 /* Ürün görseli alaný (kare görünüm) */
 .product-image {
@@ -188,7 +195,7 @@
 
 /* Yýldýz container */
 .star {
-    font-size: 23px;
+    font-size: 20px; /* Eskiden 23px */
     color: #ccc;
     position: relative;
     display: inline-block;
@@ -213,15 +220,16 @@
     align-items: center;
     gap: 5px;
     margin-top: 5px;
+    width: 100%; /* Yeni satýr */
+    box-sizing: border-box; /* padding dahil hesaplar */
 }
+
 
 /* Puan deðeri */
 .rating-score {
-    font-family: 'Avenir-Book';
-    font-size: 14px;
-    line-height: 0;
-    vertical-align: middle;
-    padding-top: 5px;
+    font-size: 13px; /* Eskiden 14px */
+    line-height: 1; /* Daha net hizalanýr */
+    padding-top: 2px; /* Eskiden 5px */
 }
 
 /* Font tanýmlamalarý */
