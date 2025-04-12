@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KutezClient.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KutezClient.2iul824sn8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BlackOblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-BlackOblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Book.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Book.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BookOblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-BookOblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Heavy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Heavy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-HeavyOblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-HeavyOblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-LightOblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-LightOblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-MediumOblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-MediumOblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Oblique.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Oblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Roman.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Avenir\\Avenir-Roman.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Black.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Black.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-BlackItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraLight.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-LightItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-MediumItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-SemiBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Thin.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ThinItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\KutezClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KutezClient.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KutezClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KutezClient.props",
+      "PackagePath": "build\\KutezClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KutezClient.props",
+      "PackagePath": "buildMultiTargeting\\KutezClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KutezClient.props",
+      "PackagePath": "buildTransitive\\KutezClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

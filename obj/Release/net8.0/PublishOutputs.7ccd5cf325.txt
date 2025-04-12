@@ -1,0 +1,7 @@
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\KutezClient.exe
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\KutezClient.dll
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\KutezClient.deps.json
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\KutezClient.runtimeconfig.json
+C:\Users\PC\Desktop\KutezClient\obj\Release\net8.0\PubTmp\Out\KutezClient.pdb
