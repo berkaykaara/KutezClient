@@ -1,0 +1,133 @@
+﻿@using Microsoft.AspNetCore.Html
+@model List<KutezApi.Model.Product>
+
+@functions {
+    // Popülerlik skoruna göre 0-5 arası yıldız hesaplayıp HTML olarak döner
+    public HtmlString RenderStars(double popularityScore)
+    {
+        var html = "";
+        double filledStars = popularityScore * 5;
+
+        for (int i = 0; i < 5; i++)
+        {
+            double starFill = Math.Clamp(filledStars - i, 0, 1);
+            int percentage = (int)(starFill * 100);
+            html += $"<span class='star'><span class='star-fill' style='width:{percentage}%;'>&#9733;</span>&#9733;</span>";
+        }
+
+        return new HtmlString(html);
+    }
+}
+
+@{
+    ViewData["Title"] = "Product List";
+
+    // URL'den filtre verilerini çek
+    var minPrice = Context.Request.Query["minPrice"];
+    var maxPrice = Context.Request.Query["maxPrice"];
+    var minRating = Context.Request.Query["minRating"];
+}
+
+<h1 class="page-title">Product List</h1>
+
+<!-- Filtre ve Sıralama panelini aç/kapat butonu -->
+<button type="button" onclick="toggleFilter()" style="margin-bottom: 10px;" class="toggle-filter-btn">
+    🔍 Filter & Sort Products
+</button>
+
+<!-- Filtreleme & sıralama formu -->
+<div id="filter-section" class="filter-section" style="display: none;">
+    <form method="get" class="filter-form">
+        <div class="filter-group">
+            <label>
+                💰 Min Price:
+                <input type="number" step="0.01" name="minPrice" value="@minPrice" />
+            </label>
+            <label>
+                💸 Max Price:
+                <input type="number" step="0.01" name="maxPrice" value="@maxPrice" />
+            </label>
+        </div>
+
+        <div class="filter-group">
+            <label>
+                ⭐ Min Rating:
+                <input type="number" step="0.1" name="minRating" min="0" max="5" value="@minRating" />
+            </label>
+            <label>
+                🔃 Sort by:
+                <select name="sortBy">
+                    <option value="">-- Select --</option>
+                    <option value="priceAsc" selected="@(Context.Request.Query["sortBy"] == "priceAsc")">Price: Low to High</option>
+                    <option value="priceDesc" selected="@(Context.Request.Query["sortBy"] == "priceDesc")">Price: High to Low</option>
+                    <option value="ratingDesc" selected="@(Context.Request.Query["sortBy"] == "ratingDesc")">Rating: High to Low</option>
+                    <option value="ratingAsc" selected="@(Context.Request.Query["sortBy"] == "ratingAsc")">Rating: Low to High</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="filter-actions">
+            <button type="submit" class="apply-btn">Apply</button>
+            <a href="@Url.Action("Index", "Home")" class="clear-btn">Clear Filters</a>
+        </div>
+    </form>
+</div>
+
+<!-- Ürünleri yatay olarak gösteren carousel -->
+<div class="carousel-wrapper">
+    <!-- Sola kaydırma butonu -->
+    <button class="carousel-arrow left" onclick="scrollCarousel(-1)">&#10094;</button>
+
+    <div class="carousel-container" id="carousel">
+        <div class="carousel-track">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var product = Model[i];
+                var imgId = $"product-img-{i}";
+                var colorNameId = $"colorName-{i}";
+
+                <div class="product-card">
+                    <!-- Ürün görseli -->
+                    <div class="product-image">
+                        <img id="@imgId" src="@product.Images.Yellow" alt="@product.Name" />
+                    </div>
+
+                    <!-- Ürün adı ve fiyatı -->
+                    <div class="product-title">@product.Name</div>
+                    <p><span class="price-usd">$@product.Price.ToString("F2") USD</span></p>
+
+                    <!-- Renk seçimi butonları -->
+                    <div class="color-buttons">
+                        <label class="color-label yellow">
+                            <input type="radio" name="color-@i" checked onchange="selectColor('@imgId', '@colorNameId', '@product.Images.Yellow', 'Yellow Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                        <label class="color-label white">
+                            <input type="radio" name="color-@i" onchange="selectColor('@imgId', '@colorNameId', '@product.Images.White', 'White Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                        <label class="color-label rose">
+                            <input type="radio" name="color-@i" onchange="selectColor('@imgId', '@colorNameId', '@product.Images.Rose', 'Rose Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                    </div>
+
+                    <!-- Seçili renk adı -->
+                    <div class="selected-color-name" id="@colorNameId">Yellow Gold</div>
+
+                    <!-- Popülerlik göstergesi (yıldız ve puan) -->
+                    <div class="product-info">
+                        @RenderStars(product.PopularityScore)
+                        <span class="rating-score">@Math.Round(product.PopularityScore * 5, 1)/5</span>
+                    </div>
+
+                    <!-- Boşluk dengeleyici -->
+                    <div class="flex-grow"></div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Sağa kaydırma butonu -->
+    <button class="carousel-arrow right" onclick="scrollCarousel(1)">&#10095;</button>
+</div>

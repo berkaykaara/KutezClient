@@ -1,0 +1,354 @@
+/* Sayfa baþlýðý */
+.page-title {
+    font-family: 'Avenir-Book';
+    font-size: 45px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Carousel dýþ sarýcý (oklar + içerik) */
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Carousel içeriði saran alan */
+.carousel-container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* her öðeye snap */
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+
+/* Carousel içeriði (ürün kartlarý) */
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    padding: 0 40px;
+    align-items: stretch;
+}
+
+    /* Scroll sonrasý boþluk görünümü için boþ eleman */
+    .carousel-track::after {
+        content: '';
+        flex: 0 0 40px;
+    }
+
+/* Carousel oklarý */
+.carousel-arrow {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 30px;
+    padding: 30px 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+    /* Ok hover efekti */
+    .carousel-arrow:hover {
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    /* Sol ok pozisyonu */
+    .carousel-arrow.left {
+        left: 5px;
+    }
+
+    /* Sað ok pozisyonu */
+    .carousel-arrow.right {
+        right: 5px;
+    }
+
+/* Ürün kartý stili */
+.product-card {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: left;
+    scroll-snap-align: start;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: min-content;
+    min-width: 148px;
+    box-sizing: border-box;
+}
+
+/* Geniþ ekranlar için ürün kartý geniþliði */
+@media (min-width: 1024px) {
+    .product-card {
+        flex: 0 0 25%;
+        min-height: 460px;
+    }
+}
+
+/* Ürün görseli alaný (kare görünüm) */
+.product-image {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+    /* Görselin alana oturtulmasý */
+    .product-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/* Ürün adý */
+.product-title {
+    font-family: 'Montserrat-Medium';
+    font-size: 15px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+/* Fiyat bilgisi */
+.price-usd {
+    font-family: 'Montserrat-Regular';
+    font-size: 15px;
+}
+
+/* Renk butonlarý alaný */
+.color-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+/* Renk seçimi label'ý */
+.color-label {
+    cursor: pointer;
+}
+
+    /* Radyo input'u gizle */
+    .color-label input {
+        display: none;
+    }
+
+/* Renk noktasý */
+.color-dot {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+/* Seçili renk için dýþ çizgi efekti */
+.color-label input:checked + .color-dot {
+    box-shadow: 0 0 0 3.5px white, 0 0 0 4px #000;
+}
+
+/* Sarý altýn renk */
+.color-label.yellow .color-dot {
+    background-color: #E6CA97;
+}
+
+/* Beyaz altýn renk */
+.color-label.white .color-dot {
+    background-color: #D9D9D9;
+}
+
+/* Rose altýn renk */
+.color-label.rose .color-dot {
+    background-color: #E1A4A9;
+}
+
+/* Seçili renk adý */
+.selected-color-name {
+    font-family: 'Avenir-Book';
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Yýldýz container */
+.star {
+    font-size: 23px;
+    color: #ccc;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+/* Dolu yýldýz içi */
+.star-fill {
+    color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+/* Yýldýz + puan container */
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+/* Puan deðeri */
+.rating-score {
+    font-family: 'Avenir-Book';
+    font-size: 14px;
+    line-height: 0;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+/* Font tanýmlamalarý */
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('/fonts/Montserrat/Montserrat-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/fonts/Montserrat/Montserrat-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir-Book';
+    src: url('/fonts/Avenir/Avenir-Book.ttf') format('truetype');
+}
+
+/* Yükseklik dengeleyici */
+.flex-grow {
+    flex-grow: 1;
+}
+
+/* Fade in animasyonu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Fade in sýnýfý */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ---------------- FÝLTRE FORMU ---------------- */
+
+/* Filtre bölümü dýþ sarýcý */
+.filter-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 900px;
+}
+
+/* Filtre form yapýsý */
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Filtre gruplarý (fiyat, rating, sýralama) */
+.filter-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+    .filter-group label {
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .filter-group input,
+    .filter-group select {
+        padding: 6px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 5px;
+        min-width: 150px;
+    }
+
+/* Uygula ve temizle butonlarý */
+.filter-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Uygula butonu */
+.apply-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Temizle butonu */
+.clear-btn {
+    background-color: #f0f0f0;
+    color: #444;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+/* Filtre panelini aç/kapat butonu */
+.toggle-filter-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Hover efektleri */
+    .toggle-filter-btn:hover {
+        background-color: #d0d0d0;
+    }
+
+.apply-btn:hover {
+    background-color: #0069d9;
+}
+
+.clear-btn:hover {
+    background-color: #e2e2e2;
+}
