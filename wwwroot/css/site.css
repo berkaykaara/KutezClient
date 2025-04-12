@@ -44,7 +44,7 @@
     background-color: transparent;
     color: black;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 30px 12px;
     position: absolute;
     top: 45%;
@@ -61,12 +61,12 @@
 
     /* Sol ok pozisyonu */
     .carousel-arrow.left {
-        left: 1px;
+        left: -10px;
     }
 
     /* Sað ok pozisyonu */
     .carousel-arrow.right {
-        right: 1px;
+        right: -10px;
     }
 
 /* Ürün kartý stili */
@@ -195,7 +195,7 @@
 
 /* Yýldýz container */
 .star {
-    font-size: 20px; /* Eskiden 23px */
+    font-size: 1.8vw; /* Orantýlý boyut, örneðin geniþ ekranlarda ~20px olur */
     color: #ccc;
     position: relative;
     display: inline-block;
@@ -218,7 +218,7 @@
 .product-info {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
     margin-top: 5px;
     width: 100%; /* Yeni satýr */
     box-sizing: border-box; /* padding dahil hesaplar */
@@ -227,11 +227,31 @@
 
 /* Puan deðeri */
 .rating-score {
-    font-size: 13px; /* Eskiden 14px */
-    line-height: 1; /* Daha net hizalanýr */
-    padding-top: 2px; /* Eskiden 5px */
+    font-size: 1.3vw; /* Eskiden sabit px idi, þimdi orantýlý */
+    line-height: 1;
+    padding-top: 0.3vw;
 }
+/* Geniþ ekranlar için sýnýrla */
+@media (min-width: 1024px) {
+    .star {
+        font-size: 20px;
+    }
 
+    .rating-score {
+        font-size: 13px;
+        padding-top: 2px;
+    }
+}
+/* Küçük ekranlarda daha küçük olsun */
+@media (max-width: 480px) {
+    .star {
+        font-size: 14px;
+    }
+
+    .rating-score {
+        font-size: 11px;
+    }
+}
 /* Font tanýmlamalarý */
 @font-face {
     font-family: 'Montserrat-Medium';
